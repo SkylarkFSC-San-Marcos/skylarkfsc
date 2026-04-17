@@ -285,8 +285,8 @@ p {
 
 .logo__image {
     <!-- width: 50px; -->
-    height: 60px;
     width: auto;
+    height: 60px;
     background-color: var(--color-primary);
     border-radius: 50%;
     display: flex;
