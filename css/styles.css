@@ -284,7 +284,7 @@ p {
 }
 
 .logo__image {
-    width: 60px; <!-- 50px -->
+    width: 100px; <!-- 50px -->
     height: 50px;
     background-color: var(--color-primary);
     border-radius: 50%;
