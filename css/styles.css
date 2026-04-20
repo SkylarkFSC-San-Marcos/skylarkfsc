@@ -896,6 +896,8 @@ p {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    object-fit: cover;
+    <!--
     margin: 0 auto var(--spacing-md);
     background-color: var(--color-border);
     display: flex;
@@ -903,7 +905,7 @@ p {
     justify-content: center;
     font-size: 3rem;
     color: var(--color-text-muted);
-    object-fit: cover;
+    -->
 }
 
 .team-member__name {
