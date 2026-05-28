@@ -167,6 +167,7 @@ p {
 <!-- .grid--3 { grid-template-columns: repeat(3, 1fr); } -->
 .grid--3 {
     grid-template-columns: repeat(3, 260px);
+    gap: var(--spacing-lg);
     justify-content: center;
 }
 .grid--4 { grid-template-columns: repeat(4, 1fr); }
