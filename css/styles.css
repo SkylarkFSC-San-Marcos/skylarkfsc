@@ -164,7 +164,7 @@ p {
 }
 
 .grid--2 { grid-template-columns: repeat(2, 1fr); }
-.grid--3 { grid-template-columns: repeat(3, 1fr); }
+.grid--3 { grid-template-columns: repeat(3, 1fr); gap: 20px; justify-content: center}
 .grid--4 { grid-template-columns: repeat(4, 1fr); }
 
 @media (max-width: 992px) {
