@@ -164,18 +164,28 @@ p {
 }
 
 .grid--2 { grid-template-columns: repeat(2, 1fr); }
-.grid--3 { grid-template-columns: repeat(3, 1fr); }
+<!-- .grid--3 { grid-template-columns: repeat(3, 1fr); } -->
+
+.grid--3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--spacing-lg);
+}
+.grid--3 .team-member {
+    width: calc(33.33% - var(--spacing-lg));
+    max-width: 260px;
+}
+
 .grid--4 { grid-template-columns: repeat(4, 1fr); }
-.grid--5 { grid-template-columns: repeat(5, 1fr); }
 
 @media (max-width: 992px) {
-    .grid--5 { grid-template-columns: repeat(2, 1fr);
     .grid--4 { grid-template-columns: repeat(2, 1fr); }
     .grid--3 { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
-    .grid--5, .grid--4, .grid--3, .grid--2 { grid-template-columns: 1fr; }
+    .grid--4, .grid--3, .grid--2 { grid-template-columns: 1fr; }
 }
 
 /* Flexbox Utilities */
