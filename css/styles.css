@@ -73,10 +73,10 @@ html {
 }
 
 /* =========================================================
->>> NEW / CHANGED: Anchor offset so jump-to sections aren't
+>>> NEW / CHANGED: Anchor offset so jump-to <h2> aren't
 >>> hidden behind the sticky header when using "#" links.
 ========================================================= */
-.section[id] {
+h2[id] {
 scroll-margin-top: calc(var(--header-height) + 20px);
 }
 /* ========================================================= */
